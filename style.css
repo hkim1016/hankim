@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #4a4848;
+    color: #e0d6d4;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5em 10px 5em;
+    font-size: 1.4em;
+    border-bottom: 1px solid #e0d6d4;
+}
+
+nav div:nth-child(1) {
+    margin-left: 1em;
+}
+
+nav div:nth-child(2) {
+    margin-left: 1em;
+}
+
+nav div a {
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+nav div:nth-child(2) a {
+    margin-left: 2em;
+}
+
+#personal-info {
+    width: 70%;
+    margin: auto;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    padding: 1.3em 0 1.3em 0;
+}
+
+#profile-pic {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+#introduction {
+    height: fit-content;
+    width: 40%;
+    /* margin-left: 1.5em; */
+    margin: auto 0 auto 2em;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+#introduction h1 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#introduction p {
+    font-size: 1.3em;
+}
+
+.keyword {
+    color: turquoise;
+}
+
+#experience, #projects {
+    /* border: 1px solid white; */
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+#experience h1, .section-title {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.company-name, .project-name {
+    font-size: 1.3em;
+}
+
+.company-dates {
+    font-size: 1.15em;
+}
+
+#school-info, .company-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: circle;
+    display: list-item;
+    margin-left: 20px;
+}
+
+#education {
+    margin-top: 1.5em;
+}
+
+#work-experience, #projects {
+    margin-top: 2em;
+}
+
+#MEALFLOW {
+    margin-top: 1.2em;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    width: 16%;
+    margin: 0 auto 0 auto;
+}
+
+.contact_images {
+    /* background-color: white; */
+    width: 40px;
+    height: 40px;
+    /* object-fit: cover; */
+}

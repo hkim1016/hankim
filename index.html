@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        
+        <nav>
+            <div>
+                <a href="#personal-info">About</a>
+            </div>
+            <div>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <main>
+            <section id="personal-info">
+                <img src="./profile.jpg" id="profile-pic">
+                <div id="introduction">
+                    <h1 id="name">Hello! My name is <span class="keyword">Han Kim!</span></h1>
+                    <p>I'm graduating senior studying computer science from <span class="keyword">UC San Diego</span> pursuing a career in Software Development</p>
+                </div>
+            </section>
+            <section id="contact">
+                    <a href="mailto: hankim0827@gmail.com"><img src="email.png" class="contact_images"></a>
+                    <a href="https://github.com/hkim1016" target="_blank"><img src="github.png" class="contact_images"></a>
+                    <a href="https://www.linkedin.com/in/hankim1016/" target="_blank"><img src="linkedin.png" class="contact_images"></a>
+            </section>
+
+            <section id="experience">
+                <div id="education">
+                    <h1>Education</h1>
+                    <div id="school-info" class="company-info">
+                        <h3 class="company-name">University of California, San Diego</h3>
+                        <h3 class="company-dates">September 2019 - June 2023</h3>
+                    </div>
+                    <div id="school-desc">
+                        <ul>
+                            <li>B.S in Computer Science</li>
+                            <li>
+                                Coursework: <span class="course-numb">CSE 110</span> Advanced Datastructures; <span class="course-numb">CSE 108</span> Data Science in Practice; <span class="course-numb">CSE 110</span> Software Engineering; <span class="course-numb">CSE 127</span> Intro to Computer Security; <span class="course-numb">CSE 176A</span> Healthcare Robotics
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="work-experience">
+                    <h1>Experience</h1>
+                    <div id="Kitu Systems">
+                        <div id="kitu-info" class="company-info">
+                            <h3 class="company-name">Kitu Systems, Inc.</h3>
+                            <h3 class="company-dates">December 2021 - Feburary 2022, July 2022 - Current</h3>
+                        </div>
+                        <div id="kitu-desc">
+                            <ul>
+                                <li>Works in development using NodeJS and SQL</li>
+                                <li>Create and refactor code and unit tests to ensure the highest quality for clients</li>
+                                <li>Develop code to interface with the IEEE 2030.5 Smart Energy Protocol</li>
+                                <li>Works in the Citadel team, developing a powerful and flexible, open-standards-based DER services for utilities</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="MEALFLOW">
+                        <div id="mealflow-info" class="company-info">
+                            <h3 class="company-name">MEALFLOW</h3>
+                            <h3 class="company-dates">Feburary 2021 - Decemeber 2021</h3>
+                        </div>
+                        <div id="mealflow-desc">
+                            <ul>
+                                <li>Utilizing Git for version control</li>
+                                <li>Developing a RESTful web app</li>
+                                <li>Uses MongoDB to store the users and orders</li>
+                                <li>Uses Node.js, npm, and Express API to create the back-end</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h1 class="section-title">Projects</h1>
+                <div id="comfy-cooking">
+                    <h1 class="project-name">Comfy Cooking</h1>
+                    <ul class="project-desc">
+                        <li>A website to create and view a variety of recipes</li>
+                        <li>Utilizes React for the frontend design and functionality</li>
+                        <li>Backend create with Supabase</li>
+                        <li>Website hosted on Vercel</li>
+                    </ul>
+                </div>
+
+                <div id="moca">
+                    <h1 class="project-name">MOCA</h1>
+                    <ul class="project-desc">
+                        <li>A website for the art pieces from Museum of Contemporary Art SD that I thought were interesting</li>
+                        <li>Utilized three.js to create the mini-museum</li>
+                        <li>Deployed website on Vercel</li>
+                    </ul>
+                </div>
+
+                <div id="meal-buddy">
+                    <h1 class="project-name">Meal Buddy</h1>
+                    <ul class="project-desc">
+                        <li>A web app that allows users to maintain a feed explicitly for food recipes hosted on Firebase</li>
+                        <li>Utilized HTML, CSS, and Javascript to design and create the front-end</li>
+                        <li>Accessed the database and connect it with the web app with Javascript</li>
+                        <li>Used Firebase for authentication and database</li>
+                    </ul>
+                </div>
+
+                <div id="thirsty-maps">
+                    <h1 class="project-name">Thirsty Maps</h1>
+                    <ul class="project-desc">
+                        <li>Displays all the water filling stations at University of California - San Diego</li>
+                        <li>Uses Google Maps API to display the directions from current location to the desired water filling station</li>
+                        <li>Hosted on Amazon AWS S3 with Cloudfront (Website currently discontinued because of lack of finances)</li>
+                        <li>Locations of water filling stations were scraped with a lxml scraping library</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
