@@ -78,6 +78,10 @@ nav div:nth-child(2) a {
     color: turquoise;
 }
 
+.key-techs {
+    color: lightblue;
+}
+
 #experience, #projects {
     /* border: 1px solid white; */
     width: 50%;
