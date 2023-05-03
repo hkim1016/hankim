@@ -1,2 +1,2 @@
 # hankim
-My Personal Website (Come check it out!)
+My Personal Website (v.1)
